@@ -1,8 +1,8 @@
-🔍 Problem Statement
+**🔍 Problem Statement**
 
 Predict individual medical insurance charges based on demographic and lifestyle factors using a supervised machine learning approach.
 
-📊 Dataset
+**📊 Dataset**
 
 The dataset includes the following features:
 
@@ -20,11 +20,11 @@ region
 
 Target variable: charges
 
-🧠 Model Used
+**🧠 Model Used**
 
 Multiple Linear Regression
 
-⚙️ Methodology
+**⚙️ Methodology**
 
 Data loading and inspection
 
@@ -36,7 +36,7 @@ Model training
 
 Performance evaluation using regression metrics
 
-🛠️ Technologies
+**🛠️ Technologies**
 
 Python
 
@@ -48,6 +48,6 @@ Scikit-learn
 
 Matplotlib / Seaborn (optional for EDA)
 
-📈 Outcome
+**📈 Outcome**
 
 The model learns relationships between demographic/lifestyle factors and insurance charges, providing interpretable predictions and serving as a baseline regression project.
