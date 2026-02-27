@@ -230,7 +230,7 @@ export default function Prediction() {
               <div className="bg-gradient-to-br from-teal-500 to-teal-600 rounded-2xl p-6 text-white mb-6 shadow-lg shadow-teal-500/20">
                 <p className="text-teal-100 text-sm font-medium mb-1">Estimated Annual Cost</p>
                 <h3 className="text-4xl font-bold tracking-tight">
-                  ${result.predicted_charges.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}
+                  ₹{result.predicted_charges.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}
                 </h3>
               </div>
 
