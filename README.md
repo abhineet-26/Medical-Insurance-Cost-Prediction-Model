@@ -1,10 +1,9 @@
-🏥 MedInsure AI – Medical Insurance Cost Prediction
-
+🏥 **MedInsure AI – Medical Insurance Cost Prediction**
 MedInsure AI is a machine learning–powered web application that predicts individual medical insurance charges based on demographic and lifestyle information. The project combines a trained Random Forest regression model with a modern web interface to provide accurate, real-time predictions.
 
 The backend API is already deployed and accessible, while the frontend allows users to input details and instantly view predicted insurance costs.
 
-🚀 Features
+🚀**Features**
 
 Predicts medical insurance charges using ML
 
@@ -36,7 +35,7 @@ Clean and responsive frontend UI
 
 Backend served via REST API
 
-🧠 Machine Learning Model
+🧠 **Machine Learning Model**
 
 Algorithm: Random Forest Regressor
 
@@ -56,7 +55,7 @@ MAE: ~₹2300
 
 RMSE: ~₹4400
 
-🏗️ Project Structure
+🏗️ **Project Structure**
 medinsure-ai/
 │
 ├── backend/
@@ -103,7 +102,7 @@ Example Response
   "mae": 2345.34,
   "rmse": 4472.28
 }
-🎨 Frontend Setup (Local)
+🎨 **Frontend Setup (Local)**
 
 Only the frontend needs to be run locally.
 
@@ -120,12 +119,12 @@ const BACKEND_URL = "https://your-deployed-backend-url/predict";
 npm run dev
 5️⃣ Open in Browser
 http://localhost:3000
-💱 Currency Display (₹)
+💱 **Currency Display (₹)**
 
 The application displays predicted costs in Indian Rupees (₹).
 Formatting is handled on the frontend using the currency symbol.
 
-📊 Visual Insights
+📊 **Visual Insights**
 
 Correlation analysis for feature selection
 
@@ -135,8 +134,7 @@ Residual and error distribution analysis
 
 Model performance visualizations
 
-🔮 Future Scope
-
+🔮 **Future Scope**
 Add user authentication & prediction history
 
 Deploy frontend to cloud hosting (Render / Netlify / Vercel)
@@ -149,6 +147,7 @@ Expand dataset for better generalization
 
 Convert to full production-ready healthcare analytics tool
 
-📌 Conclusion
+📌 **Conclusion**
 
 MedInsure AI demonstrates how machine learning can be effectively integrated with web technologies to solve real-world problems in healthcare insurance. The project showcases end-to-end ML deployment — from data preprocessing and model training to API creation and frontend integration.
+
