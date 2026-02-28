@@ -8,12 +8,19 @@ In The backend FastAPI is already deployed and accessible, while the frontend al
 ## **Features**
 
 Predicts medical insurance charges using ML
+
 Uses demographic & lifestyle features:
+
 Age
+
 Sex
+
 BMI
+
 Number of children
+
 Smoking status
+
 Region
 
 Includes feature interactions (age × smoker, BMI × smoker)
@@ -21,9 +28,13 @@ Includes feature interactions (age × smoker, BMI × smoker)
 Displays:
 
 Predicted insurance cost
+
 Risk level (Low / Medium / High)
+
 Model performance metrics (R², MAE, RMSE)
+
 Clean and responsive frontend UI
+
 Backend served via REST API
 
 
@@ -35,14 +46,21 @@ Algorithm: Random Forest Regressor
 Reason for choice:
 
 Handles non-linear relationships well
+
 Robust to outliers
+
 Performs better than linear models for this dataset
+
 Final Model Metrics
 
 R² Score: ~0.89
+
 MAE: ~₹2300
+
 RMSE: ~₹4400
+
 Built using FastAPI
+
 Provides a /predict endpoint
 
 Accepts JSON input and returns predictions
@@ -71,7 +89,7 @@ Example Response
 
 
 
- **Frontend Setup (Local)**
+ ## **Frontend Setup (Local)**
 
 Only the frontend needs to be run locally.
 
@@ -93,29 +111,38 @@ http://localhost:3000
 
 
 
-**Visual Insights**
+## **Visual Insights**
 
 Correlation analysis for feature selection
+
 Feature importance–based pruning
+
 Residual and error distribution analysis
+
 Model performance visualizations
 
 
 
-**Future Scope**
+## **Future Scope**
 
 Add user authentication & prediction history
+
 Deploy frontend to cloud hosting (Render / Netlify / Vercel)
+
 Add more advanced models (XGBoost, Gradient Boosting)
+
 Improve explainability using SHAP values
+
 Expand dataset for better generalization
+
 Convert to full production-ready healthcare analytics tool
 
 
 
-**Conclusion**
+## **Conclusion**
 
 MedInsure AI demonstrates how machine learning can be effectively integrated with web technologies to solve real-world problems in healthcare insurance. The project showcases end-to-end ML deployment — from data preprocessing and model training to API creation and frontend integration.
+
 
 
 
