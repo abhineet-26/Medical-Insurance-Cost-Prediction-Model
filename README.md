@@ -66,25 +66,45 @@ Provides a /predict endpoint
 Accepts JSON input and returns predictions
 
 Example Request Payload
+
 {
+
   "age": 35,
+  
   "sex": 1,
+  
   "bmi": 28.5,
+  
   "children": 2,
+  
   "smoker": 1,
+  
   "region_southeast": 1,
+  
   "region_northwest": 0,
+  
   "region_southwest": 0,
+  
   "age_smoker": 35,
+  
   "bmi_smoker": 28.5
+  
 }
+
 Example Response
+
 {
+
   "predicted_charges": 14250.75,
+  
   "risk_level": "Medium",
+  
   "r2": 0.872,
+  
   "mae": 2345.34,
+  
   "rmse": 4472.28
+  
 }
 
 
@@ -142,6 +162,7 @@ Convert to full production-ready healthcare analytics tool
 ## **Conclusion**
 
 MedInsure AI demonstrates how machine learning can be effectively integrated with web technologies to solve real-world problems in healthcare insurance. The project showcases end-to-end ML deployment — from data preprocessing and model training to API creation and frontend integration.
+
 
 
 
