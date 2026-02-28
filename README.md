@@ -1,4 +1,5 @@
 🏥 **MedInsure AI – Medical Insurance Cost Prediction**
+
 MedInsure AI is a machine learning–powered web application that predicts individual medical insurance charges based on demographic and lifestyle information. The project combines a trained Random Forest regression model with a modern web interface to provide accurate, real-time predictions.
 
 The backend API is already deployed and accessible, while the frontend allows users to input details and instantly view predicted insurance costs.
@@ -150,4 +151,5 @@ Convert to full production-ready healthcare analytics tool
 📌 **Conclusion**
 
 MedInsure AI demonstrates how machine learning can be effectively integrated with web technologies to solve real-world problems in healthcare insurance. The project showcases end-to-end ML deployment — from data preprocessing and model training to API creation and frontend integration.
+
 
