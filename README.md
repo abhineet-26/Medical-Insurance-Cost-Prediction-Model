@@ -5,7 +5,7 @@ In The backend FastAPI is already deployed and accessible, while the frontend al
 
 
 
-**Features**
+## **Features**
 
 Predicts medical insurance charges using ML
 Uses demographic & lifestyle features:
@@ -28,7 +28,7 @@ Backend served via REST API
 
 
 
-**Machine Learning Model**
+## **Machine Learning Model**
 
 Algorithm: Random Forest Regressor
 
@@ -76,12 +76,19 @@ Example Response
 Only the frontend needs to be run locally.
 
 1️⃣ Navigate to Frontend Folder
+
 cd frontend
+
 2️⃣ Install Dependencies
+
 npm install
+
 3️⃣ Run Development Server
+
 npm run dev
+
 4️⃣ Open in Browser
+
 http://localhost:3000
 
 
@@ -109,6 +116,7 @@ Convert to full production-ready healthcare analytics tool
 **Conclusion**
 
 MedInsure AI demonstrates how machine learning can be effectively integrated with web technologies to solve real-world problems in healthcare insurance. The project showcases end-to-end ML deployment — from data preprocessing and model training to API creation and frontend integration.
+
 
 
 
