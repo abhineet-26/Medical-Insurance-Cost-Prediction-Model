@@ -89,7 +89,7 @@ export default function Dashboard() {
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 mb-10">
           {[
             { label: 'Total Scans', value: '12,405', trend: '+12.5%', icon: Activity, color: 'text-cyan-500 dark:text-cyan-400', glow: 'shadow-[0_0_15px_rgba(6,182,212,0.2)]' },
-            { label: 'Avg Cost Est.', value: '$13,270', trend: '-2.4%', icon: TrendingUp, color: 'text-blue-500 dark:text-blue-400', glow: 'shadow-[0_0_15px_rgba(59,130,246,0.2)]' },
+            { label: 'Avg Cost Est.', value: '₹13,270', trend: '-2.4%', icon: TrendingUp, color: 'text-blue-500 dark:text-blue-400', glow: 'shadow-[0_0_15px_rgba(59,130,246,0.2)]' },
             { label: 'Model Accuracy', value: '89.2%', trend: '+0.5%', icon: Target, color: 'text-violet-500 dark:text-violet-400', glow: 'shadow-[0_0_15px_rgba(139,92,246,0.2)]' },
             { label: 'Active Nodes', value: '842', trend: '+18.2%', icon: Users, color: 'text-emerald-500 dark:text-emerald-400', glow: 'shadow-[0_0_15px_rgba(16,185,129,0.2)]' },
           ].map((stat, i) => (
