@@ -289,13 +289,13 @@ export default function Prediction() {
                   {result.mae && (
                     <div className="flex justify-between items-center p-3 glass-panel-light rounded-xl border border-slate-200/20 dark:border-white/5">
                       <span className="text-sm text-slate-600 dark:text-slate-400 font-mono">MAE_VAL</span>
-                      <span className="font-bold text-slate-700 dark:text-slate-200">${result.mae.toFixed(2)}</span>
+                      <span className="font-bold text-slate-700 dark:text-slate-200">₹{result.mae.toFixed(2)}</span>
                     </div>
                   )}
                   {result.rmse && (
                     <div className="flex justify-between items-center p-3 glass-panel-light rounded-xl border border-slate-200/20 dark:border-white/5">
                       <span className="text-sm text-slate-600 dark:text-slate-400 font-mono">RMSE_VAL</span>
-                      <span className="font-bold text-slate-700 dark:text-slate-200">${result.rmse.toFixed(2)}</span>
+                      <span className="font-bold text-slate-700 dark:text-slate-200">₹{result.rmse.toFixed(2)}</span>
                     </div>
                   )}
                 </div>
